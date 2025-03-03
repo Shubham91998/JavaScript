@@ -1,14 +1,30 @@
-// Stack (Premitive), [Heap(non-Premitive)=> Memory Refrence]
+// Stack (Premitive) =>
 
+    // |                                  |
+    // |                                  |
+    // |                                  |
+    // |  newName => "anothername"        |
+    // |  newName => hiteshChoudhary      |
+    // |  youtube => hiteshChoudhary      |
+    // |__________________________________|
 
-let youtube = "hiteshChoudhary"
+let youtube = "hiteshChoudhary"  
 let newName = youtube
 
 newName = "anothername"
 console.log(youtube)
 console.log(newName)
 
+// [Heap(non-Premitive)=> Memory Refrence] => 
 
+                            // _________________
+                            // |                |
+                            // |original        |
+                            // |   data         |
+                            // |                |
+                            // |                |
+                            // |                |
+                            // |________________|
 
 let userOne = {
     email:"user@gamil.com",
